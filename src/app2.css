@@ -1,0 +1,29 @@
+#app2>.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eee;
+    line-height: 50px;
+}
+
+#app2>.header>p {
+    width: 100%;
+    text-align: center;
+}
+
+.text1,
+.text2 {
+    line-height: 100px;
+    text-align: center;
+    background-color: red;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.selected {
+    font-size: 1.2rem;
+    color: white;
+    background-color: red;
+}

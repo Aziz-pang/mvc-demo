@@ -1,0 +1,31 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    *::after,
+    *::before {
+        box-sizing: border-box;
+    }
+    
+     ::-webkit-scrollbar {
+        width: 0 !important
+    }
+    
+    body>.page {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    body>.page>section {
+        height: 50vw;
+        width: 50vw;
+        border: 1px solid red;
+    }
+    
+    @media (min-width:800px) {
+        body>.page>section {
+            height: 25vw;
+        }
+    }

@@ -1,0 +1,11 @@
+#app3 .block {
+    width: 20vw;
+    height: 20vw;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transform: translate(20px, 20px);
+    transition: transform 1s;
+}
+
+#app3 .block.active {
+    transform: translate(calc(30vw - 20px), 20px);
+}

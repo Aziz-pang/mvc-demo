@@ -1,0 +1,119 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    *::after,
+    *::before {
+        box-sizing: border-box;
+    }
+    
+     ::-webkit-scrollbar {
+        width: 0 !important
+    }
+    
+    body>.page {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    body>.page>section {
+        height: 50vw;
+        width: 50vw;
+        border: 1px solid red;
+    }
+    
+    @media (min-width:800px) {
+        body>.page>section {
+            height: 25vw;
+        }
+    }
+button {
+    width: 100px;
+    height: 49px;
+    margin: 10px;
+    justify-content: center;
+}
+
+#number {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+#btnItems {
+    display: flex;
+    margin: 10px;
+}
+#app2>.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eee;
+    line-height: 50px;
+}
+
+#app2>.header>p {
+    width: 100%;
+    text-align: center;
+}
+
+.text1,
+.text2 {
+    line-height: 100px;
+    text-align: center;
+    background-color: red;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.selected {
+    font-size: 1.2rem;
+    color: white;
+    background-color: red;
+}
+#app3 .block {
+    width: 20vw;
+    height: 20vw;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transform: translate(20px, 20px);
+    transition: transform 1s;
+}
+
+#app3 .block.active {
+    transform: translate(calc(30vw - 20px), 20px);
+}
+#app4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app4 .circle {
+    width: 20vw;
+    height: 20vw;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+@keyframes change {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+#app4 .circle:hover {
+    animation: change 3s infinite alternate linear;
+}
+
+/*# sourceMappingURL=main.13705871.css.map */

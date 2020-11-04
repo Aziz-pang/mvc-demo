@@ -1,0 +1,29 @@
+#app4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app4 .circle {
+    width: 20vw;
+    height: 20vw;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+@keyframes change {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+#app4 .circle:hover {
+    animation: change 3s infinite alternate linear;
+}
