@@ -2,7 +2,6 @@ button {
     width: 100px;
     height: 49px;
     margin: 10px;
-    justify-content: center;
 }
 
 #number {
@@ -14,4 +13,5 @@ button {
 #btnItems {
     display: flex;
     margin: 10px;
+    justify-content: center;
 }
