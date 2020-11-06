@@ -1,6 +1,7 @@
 ## 入门模块化设计
-🛑🛑 效果预览地址 ↓
+🛑🛑 效果预览地址 ↓    
 
+https://aziz-pang.github.io/mvc-demo/dist/index.html
 
 每一个功能可独立一个模块进行设计，不同的功能应当尽可能避免放在同一个文件中，css 文件可以利用 js 进行引用
 
